@@ -1,0 +1,92 @@
+
+
+body {
+  background-image: url("pexels-henry-&-co-1939485.jpg");
+  font-family: "Courier New", monospace;
+}
+
+.main {
+
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 100%;
+    padding: 150px;
+    border-width: 5px;
+    background-color: rgba(214, 211, 214, 0.808);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .navpanel {
+
+    overflow: hidden;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    z-index: 999;
+}
+
+.navpanel a {
+    float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  font-family: "Courier New", monospace;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navpanel a:hover {
+  font-size: 30.5px;
+  padding: 14px 15px;
+}
+
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  font-size: 18px;
+  transition: 0.2s;
+}
+
+
+a {
+  float: right;
+  text-align: right;
+  margin: auto;
+}
+
+.logout {
+
+  background-color: #9ba09b;
+  border-color: #9ba09b;
+  overflow: hidden;
+  position: fixed;
+  top: 20px;
+  right: 40px;
+  z-index: 999;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.logout:hover {
+  background-color: #d6d6d6;
+  border-color: black;
+}

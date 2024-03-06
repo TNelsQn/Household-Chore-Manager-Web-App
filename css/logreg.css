@@ -1,0 +1,105 @@
+.main {
+    margin: auto;
+    width: 60%;
+    height: 1000px;
+    padding: 10px;
+
+}
+
+.logo {
+    margin: left;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo2 {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    float: center;
+    
+
+}
+
+.login {
+    margin: auto;
+    width: 30%;
+    height: 500px;
+    padding: 10px;
+    float: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.passwordReset {
+    margin: auto;
+    width: 40%;
+    height: 500px;
+    padding: 10px;
+    float: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.header {
+    margin: auto;
+    width: 90%;
+    height: 70px;
+    padding: 10px;
+}
+
+
+.panel {
+    margin: left;
+    width: 30%;
+    height: 950px;
+    border: 5px solid red;
+    padding: 10px;
+   
+}
+
+.addlist {
+    margin: right;
+    width: 55%;
+    height: 60px;
+    border: 5px solid red;
+    padding: 60px;
+    float:right;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
